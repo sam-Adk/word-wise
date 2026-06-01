@@ -1,0 +1,78 @@
+import { Track } from '../App';
+
+// Mock track data with placeholder audio URLs
+// In production, replace with real audio files
+export const mockTracks: Track[] = [
+  {
+    id: 1,
+    title: 'Midnight Dreams',
+    artist: 'Luna Echo',
+    album: 'Nocturnal Sessions',
+    duration: 243,
+    cover: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=500&q=80',
+    url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3',
+  },
+  {
+    id: 2,
+    title: 'Electric Sunrise',
+    artist: 'The Neon Collective',
+    album: 'Digital Horizons',
+    duration: 198,
+    cover: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=500&q=80',
+    url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3',
+  },
+  {
+    id: 3,
+    title: 'Ocean Waves',
+    artist: 'Coastal Sounds',
+    album: 'Seaside Memories',
+    duration: 276,
+    cover: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80',
+    url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3',
+  },
+  {
+    id: 4,
+    title: 'Urban Pulse',
+    artist: 'Metro Beats',
+    album: 'City Lights',
+    duration: 215,
+    cover: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500&q=80',
+    url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3',
+  },
+  {
+    id: 5,
+    title: 'Starlight Symphony',
+    artist: 'Celestial Orchestra',
+    album: 'Cosmic Journey',
+    duration: 312,
+    cover: 'https://images.unsplash.com/photo-1487180144351-b8472da7d491?w=500&q=80',
+    url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3',
+  },
+  {
+    id: 6,
+    title: 'Retro Vibes',
+    artist: 'Vintage Soul',
+    album: 'Throwback Hits',
+    duration: 189,
+    cover: 'https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=500&q=80',
+    url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3',
+  },
+  {
+    id: 7,
+    title: 'Mountain Echo',
+    artist: 'Alpine Acoustics',
+    album: 'Nature Calls',
+    duration: 267,
+    cover: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=500&q=80',
+    url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3',
+  },
+  {
+    id: 8,
+    title: 'Digital Rain',
+    artist: 'Synth Wave',
+    album: 'Cyberpunk 2077',
+    duration: 234,
+    cover: 'https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=500&q=80',
+    url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3',
+  },
+];
